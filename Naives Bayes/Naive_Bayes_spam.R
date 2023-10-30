@@ -63,13 +63,28 @@ for(i in 1:nrow(test)){
   #take the distinct value
   words = strsplit(test[i,1],"[[:space:]]")[[1]][!words_dup]
   
-  #ham
-  for (j in 1:nrow(df2)){
-    for (j in 1:length(words)){
-      probability = 1
-      if(words[j] %in% df2$words){
-        
-      }
+#spam
+probability_spam = 1
+for (i in 1:nrow(df2)){
+  for (j in 1:length(words)){
+    if(words[j] %in% df2$words){
+      probability_spam = probability_spam * df2$spam[df2$words == words[j]]
+    }else{
+      probability_spam = probability_spam * (1 - df2$spam[df2$words == words[j]])
     }
   }
+}
+
+
+#ham
+probability_ham = 1
+for (i in 1:nrow(df2)){
+  for (j in 1:length(words)){
+    if(words[j] %in% df2$words){
+      probability_ham = probability_ham * df2$spam[j]
+    }else{
+      probability_ham = probability_ham * (1 - df2$spam[j])
+    }
+  }
+}
 }
