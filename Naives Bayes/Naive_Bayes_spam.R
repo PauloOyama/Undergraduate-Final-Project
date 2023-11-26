@@ -16,7 +16,7 @@ stopwords[nrow(stopwords)+1,] = 'a'
 tokenize <- function(msg){
   
   #find duplicated values in a string
-  words_dup = duplicated(strsplit(msg,"[[:space:]]")[[1]])
+  words_dup = duplicated(strsplit(tolower(msg),"[[:space:]]")[[1]])
   
   #remove the duplicated values(TOKENS)
   tokens = strsplit(msg,"[[:space:]]")[[1]][!words_dup]
@@ -72,7 +72,7 @@ token_frequency <- function(train){
 #MAIN
 ############################################################################
 
-set.seed(3)
+set.seed(sample(1:100,1))
 
 
 #Dividing in train an test (70,30)
@@ -105,6 +105,10 @@ for(i in 1:nrow(table_frequency)){
 for(i in 1:nrow(test)){
   
   words <- tokenize(test[i,1])
+  print(i)
+  if(length(words) == 0){
+    next
+  }
   
   #probability of all the words be spam
   probability_spam = 0
