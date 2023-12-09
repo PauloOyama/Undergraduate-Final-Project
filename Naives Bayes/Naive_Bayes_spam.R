@@ -105,7 +105,7 @@ for(i in 1:nrow(table_frequency)){
 for(i in 1:nrow(test)){
   
   words <- tokenize(test[i,1])
-  print(i)
+  
   if(length(words) == 0){
     next
   }
@@ -134,10 +134,13 @@ for(i in 1:nrow(test)){
   }
   
   
-  upper <- probability_spam+log(p_spam)
-  lower <- probability_spam+log(p_spam) + probability_ham+log(p_not_spam) 
-  test$predict[i] <-  ifelse(upper/lower > 0.5, 1, 0)
-  test$probability[i] <- upper/lower
+  upper_spam <- probability_spam+log(p_spam)
+  upper_not_spam <- probability_ham+log(p_not_spam) 
+  print(upper_spam)
+  print(upper_not_spam)
+  print("-----------------")
+  test$predict[i] <-  ifelse(upper_spam > upper_not_spam, 1, 0)
+  test$probability[i] <- ifelse(upper_spam > upper_not_spam, upper_spam, upper_not_spam)
 }
 
 example <- confusionMatrix(data=as.factor(test$predict), reference = as.factor(test$label))

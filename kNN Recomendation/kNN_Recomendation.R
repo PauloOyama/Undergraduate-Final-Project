@@ -1,5 +1,7 @@
 setwd("A:/Universidade/TCC/Implementação/kNN Recomendation")
 
+library(caret)
+
 #Load csv from example
 df <- read.csv("data/example_data.csv")
 
@@ -53,6 +55,7 @@ knn(df)
 df$kNNPredictions <- knn(df)
 
 sum(with(df,Label != kNNPredictions))
+confusionMatrix(data=as.factor(df$Label), reference = as.factor(df$kNNPredictions))
 
 #Testing kNN from classes library
 rm(knn)
@@ -81,3 +84,4 @@ logit.model <- glm(Label ~ X + Y, data = df[indices, ])
 predictions <- as.numeric(predict(logit.model, newdata = df[-indices, ]) > 0)
 
 sum(predictions != test.y)
+confusionMatrix(data=as.factor(test.y), reference = as.factor(predictions))
