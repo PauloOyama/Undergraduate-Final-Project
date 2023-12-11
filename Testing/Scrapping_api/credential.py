@@ -14,6 +14,7 @@ def getArtistStats(artists: dict) -> dict | None:
     if artists["popularity"] == 0:
         return None
 
+    row["artist_id"] = artists["id"]
     row["external_urls"] = artists["external_urls"]
     row["num_followers"] = artists["followers"]["total"]
     row["genres"] = artists["genres"]
@@ -35,7 +36,6 @@ try:
             arg = getArtistStats(artist)
             if arg is not None:
                 artist_table["artists"].append(arg)
-                
 
 
 except KeyboardInterrupt:
