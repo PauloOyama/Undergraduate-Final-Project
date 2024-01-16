@@ -1,6 +1,7 @@
 import os
 import json
 import spotipy
+import time
 from spotipy.oauth2 import SpotifyClientCredentials
 from typing import List
 from datetime import datetime
@@ -13,6 +14,8 @@ def getMusicFeatures(ids: List):
 def filterAudioFeatures(track_features: List):
     feat_tracks = []
     for feat in track_features:
+        if feat is None:
+            continue
         res = dict()
 
         res["danceability"] = feat["danceability"]
@@ -69,23 +72,21 @@ try:
                 track_ids.append(artist["track_id"])
                 if count % 100 == 0:
                     res = getMusicFeatures(ids=track_ids)
+                    print(track_ids)
                     if res is not None:
-                        # print(res)
                         filtered_audios = filterAudioFeatures(res)
-                        print(filtered_audios)
+                        # print(filtered_audios)
                         metadados["audio_features"] = (
                             metadados["audio_features"] + filtered_audios
                         )
                     track_ids.clear()
-
+                    time.sleep(20)
                 count += 1
 
             if len(track_ids) != 0:
                 res = getMusicFeatures(ids=track_ids)
                 if res is not None:
-                    print(res)
                     filtered_audios = filterAudioFeatures(res)
-                    print(filtered_audios)
                     metadados["audio_features"] = (
                         metadados["audio_features"] + filtered_audios
                     )

@@ -34,7 +34,7 @@ spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 # Iterate directory
 for path in os.listdir(dir_path):
     # check if current path is a file
-    if path.startswith("OK_"):
+    if path.startswith("ROK_"):
         continue
     if os.path.isfile(os.path.join(dir_path, path)):
         jsonFiles.append(os.path.join(dir_path, path))
@@ -52,21 +52,24 @@ try:
 
             count = 1
             for artist in data["artists"]:
+                print(artist["name"], artist["artist_id"])
                 res = getArtistTopTracks(artist["artist_id"])
                 if count % 30 == 0:
                     time.sleep(20)
                 if res is not None:
                     for track in res["tracks"]:
+                        # print(track)
                         top_track_table["top_tracks"].append(filterTopTrackStats(track))
-                        print(track["name"])
-
+                    print("OI")
                 count += 1
 
-        new_name = "OK_" + file.split("/")[2]
+        new_name = "R" + file.split("/")[2]
         os.rename(file, os.path.join(dir_path, new_name))
 
-except Exception:
-    print("Deu Ruim")
+except Exception as e:
+    print("Deu Ruim ", e)
+    print(f"caught {type(e)}: e")
+
 finally:
     path = f'./top_tracks_f/top_track_table_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.json'
     with open(path, "w", encoding="utf-8") as f:

@@ -3,9 +3,11 @@ import json
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from typing import List
+import glob
 import pandas as pd
 import json
 from datetime import datetime
+import csv
 
 
 dir_path = "./track_features"
@@ -30,21 +32,28 @@ try:
         if len(jsonFiles) == 0:
             break
 
-        # with open(file, "r", encoding="utf-8") as f:
-        #     data = json.load(f)
+        with open(file, "r", encoding="utf-8") as f:
+            data = json.load(f)
 
-        df = pd.read_json(file)
-        print(df["audio_features"])
+        headers = data["audio_features"][0].keys()
+        print(headers)
 
-    # print(type(metadados))
+        path = f'./json_csv/metadados_csv_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.csv'
+        with open(path, "w") as f:
+            writer = csv.DictWriter(f, fieldnames=headers)
+            writer.writeheader()
+            writer.writerows(data["audio_features"])
 
-    # path = f'./json_csv/metadados_csv_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.csv'
-    # df = pd.read_json(str(metadados))
-    # df.to_csv(path)
+        new_name = "OK_" + file.split("/")[2]
+
+        os.rename(file, os.path.join(dir_path, new_name))
+
+    csv_files = glob.glob("./json_csv/*.{}".format("csv"))
+    df_csv_concat = pd.concat(
+        [pd.read_csv(file) for file in csv_files], ignore_index=True
+    )
+    df_csv_concat.to_csv("./json_csv/metadados_dataset.csv")
 
 
 except Exception as err:
     print("Deu Ruim: ", err)
-# finally:
-# with open(path, "w", encoding="utf-8") as f:
-#     json.dump(metadados, f, ensure_ascii=False, indent=4)
