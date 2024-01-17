@@ -58,9 +58,7 @@ try:
                     time.sleep(20)
                 if res is not None:
                     for track in res["tracks"]:
-                        # print(track)
                         top_track_table["top_tracks"].append(filterTopTrackStats(track))
-                    print("OI")
                 count += 1
 
         new_name = "R" + file.split("/")[2]

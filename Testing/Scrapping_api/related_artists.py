@@ -64,7 +64,7 @@ try:
                         if ls is not None:
                             top_track_table["artists"].append(ls)
 
-            # print(artist)
+            # It will enter here if artist_ids has length between 0 and 100
             if len(artist_ids) != 0:
                 res = getRelatedArtists(artist_ids=artist_ids)
                 print(res)
@@ -82,6 +82,6 @@ try:
 except Exception as err:
     print("Deu Ruim ", err)
 finally:
-    path = f'./all_artists/related_artists_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.json'
+    path = f'./artists/OK_related_artists_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.json'
     with open(path, "w", encoding="utf-8") as f:
         json.dump(top_track_table, f, ensure_ascii=False, indent=4)
