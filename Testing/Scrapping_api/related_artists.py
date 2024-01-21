@@ -4,6 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from typing import List
 from datetime import datetime
+from auxiliar import getArtistStats, filesToRead
 import time
 
 
@@ -11,43 +12,14 @@ def getRelatedArtists(artist_ids: List[str]):
     return spotify.artist_related_artists(artist_id=artist_ids)
 
 
-def getArtistStats(artists: dict) -> dict | None:
-    row = dict()
-
-    if artists["popularity"] == 0:
-        return None
-
-    row["artist_id"] = artists["id"]
-    row["external_urls"] = artists["external_urls"]
-    row["num_followers"] = artists["followers"]["total"]
-    row["genres"] = artists["genres"]
-    row["name"] = artists["name"]
-    row["popularity"] = artists["popularity"]
-
-    return row
-
-
-# folder path
-dir_path = "./artists"
-
-# list to store files
-jsonFiles = []
-
-
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
-
-# Iterate directory
-for path in os.listdir(dir_path):
-    # check if current path is a file
-    if path.startswith("ROK_"):
-        continue
-    if os.path.isfile(os.path.join(dir_path, path)):
-        jsonFiles.append(os.path.join(dir_path, path))
-
 
 top_track_table = dict()
 top_track_table["artists"] = []
-print(jsonFiles)
+
+jsonFiles = filesToRead("./artists")
+
+
 try:
     for file in jsonFiles:
         if len(jsonFiles) == 0:
@@ -55,32 +27,21 @@ try:
         with open(file, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-            artist_ids = []
-            for related_artist in data["artists"]:
-                res = getRelatedArtists(artist_ids=related_artist["artist_id"])
-                if res is not None:
-                    for artist in res["artists"]:
-                        ls = getArtistStats(artist)
-                        if ls is not None:
-                            top_track_table["artists"].append(ls)
-
-            # It will enter here if artist_ids has length between 0 and 100
-            if len(artist_ids) != 0:
-                res = getRelatedArtists(artist_ids=artist_ids)
-                print(res)
-                if res is not None:
-                    for artist in res["artists"]:
-                        ls = getArtistStats(artist)
-                        if ls is not None:
-                            top_track_table["artists"].append(ls)
-                artist_ids.clear()
-            print(top_track_table["artists"])
+            for related_artists in data["artists"]:
+                list_related_artist = getRelatedArtists(
+                    artist_ids=related_artists["artist_id"]
+                )
+                if list_related_artist is not None:
+                    for artist in list_related_artist["artists"]:
+                        artist_data = getArtistStats(artist)
+                        if artist_data is not None:
+                            top_track_table["artists"].append(artist_data)
 
         new_name = "OK_" + file.split("/")[2]
-        os.rename(file, os.path.join(dir_path, new_name))
+        os.rename(file, os.path.join("./artists", new_name))
 
 except Exception as err:
-    print("Deu Ruim ", err)
+    print("An error has occured", err)
 finally:
     path = f'./artists/OK_related_artists_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.json'
     with open(path, "w", encoding="utf-8") as f:

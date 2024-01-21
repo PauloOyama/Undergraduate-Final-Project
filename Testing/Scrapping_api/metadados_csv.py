@@ -7,23 +7,13 @@ import glob
 import pandas as pd
 import json
 from datetime import datetime
+from auxiliar import filesToRead
 import csv
-
-
-dir_path = "./track_features"
-jsonFiles = []
 
 
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
-# Iterate directory
-for path in os.listdir(dir_path):
-    # check if current path is a file
-    if path.startswith("OK_"):
-        continue
-    if os.path.isfile(os.path.join(dir_path, path)):
-        jsonFiles.append(os.path.join(dir_path, path))
-
+jsonFiles = filesToRead("./track_features")
 
 metadados = []
 
@@ -46,7 +36,7 @@ try:
 
         new_name = "OK_" + file.split("/")[2]
 
-        os.rename(file, os.path.join(dir_path, new_name))
+        os.rename(file, os.path.join("./track_features", new_name))
 
     csv_files = glob.glob("./json_csv/*.{}".format("csv"))
     df_csv_concat = pd.concat(
@@ -56,4 +46,4 @@ try:
 
 
 except Exception as err:
-    print("Deu Ruim: ", err)
+    print("An error has occured", err)

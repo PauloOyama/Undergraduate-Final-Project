@@ -5,53 +5,16 @@ import time
 from spotipy.oauth2 import SpotifyClientCredentials
 from typing import List
 from datetime import datetime
+from auxiliar import filterAudioFeatures, filesToRead
 
 
 def getMusicFeatures(ids: List):
     return spotify.audio_features(tracks=ids)
 
 
-def filterAudioFeatures(track_features: List):
-    feat_tracks = []
-    for feat in track_features:
-        if feat is None:
-            continue
-        res = dict()
-
-        res["danceability"] = feat["danceability"]
-        res["key"] = feat["key"]
-        res["loudness"] = feat["loudness"]
-        res["mode"] = feat["mode"]
-        res["speechiness"] = feat["speechiness"]
-        res["acousticness"] = feat["acousticness"]
-        res["instrumentalness"] = feat["instrumentalness"]
-        res["liveness"] = feat["liveness"]
-        res["valence"] = feat["valence"]
-        res["tempo"] = feat["tempo"]
-        res["track_id"] = feat["id"]
-        res["uri"] = feat["uri"]
-        res["duration_ms"] = feat["duration_ms"]
-        res["time_signature"] = feat["time_signature"]
-
-        feat_tracks.append(res)
-
-    return feat_tracks
-
-
-dir_path = "./top_tracks_f"
-jsonFiles = []
-
-
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
-# Iterate directory
-for path in os.listdir(dir_path):
-    # check if current path is a file
-    if path.startswith("OK_"):
-        continue
-    if os.path.isfile(os.path.join(dir_path, path)):
-        jsonFiles.append(os.path.join(dir_path, path))
-
+jsonFiles = filesToRead("./top_tracks_f")
 
 metadados = dict()
 metadados["audio_features"] = []
@@ -67,15 +30,13 @@ try:
             count = 1
 
             track_ids = []
-            for artist in data["top_tracks"]:
-                print(artist["track_id"], count)
-                track_ids.append(artist["track_id"])
+            for track in data["top_tracks"]:
+                print(track["track_id"], count)
+                track_ids.append(track["track_id"])
                 if count % 100 == 0:
                     res = getMusicFeatures(ids=track_ids)
-                    print(track_ids)
                     if res is not None:
                         filtered_audios = filterAudioFeatures(res)
-                        # print(filtered_audios)
                         metadados["audio_features"] = (
                             metadados["audio_features"] + filtered_audios
                         )
@@ -94,10 +55,10 @@ try:
                 track_ids.clear()
 
         new_name = "OK_" + file.split("/")[2]
-        os.rename(file, os.path.join(dir_path, new_name))
+        os.rename(file, os.path.join("./top_tracks_f", new_name))
 
 except Exception as err:
-    print("Deu Ruim: ", err)
+    print("An error has occured: ", err)
 finally:
     path = f'./track_features/metadados_table_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.json'
     with open(path, "w", encoding="utf-8") as f:
