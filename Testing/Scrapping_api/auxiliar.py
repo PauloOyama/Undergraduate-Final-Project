@@ -26,6 +26,7 @@ def filterAudioFeatures(track_features: List) -> List[dict]:
         res = dict()
 
         res["danceability"] = feat["danceability"]
+        res["energy"] = feat["energy"]
         res["key"] = feat["key"]
         res["loudness"] = feat["loudness"]
         res["mode"] = feat["mode"]
