@@ -37,12 +37,12 @@ try:
                         if artist_data is not None:
                             top_track_table["artists"].append(artist_data)
 
-        new_name = "OK_" + file.split("/")[2]
+        new_name = file.split("/")[2]
         os.rename(file, os.path.join("./artists", new_name))
 
 except Exception as err:
     print("An error has occured", err)
 finally:
-    path = f'./artists/OK_related_artists_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.json'
+    path = f'./artists/related_artists_{datetime.now().strftime("%d")}_{datetime.now().strftime("%m")}_{datetime.now().strftime("%Y")}_at_{datetime.now().strftime("%H")}h_{datetime.now().strftime("%M")}m.json'
     with open(path, "w", encoding="utf-8") as f:
         json.dump(top_track_table, f, ensure_ascii=False, indent=4)

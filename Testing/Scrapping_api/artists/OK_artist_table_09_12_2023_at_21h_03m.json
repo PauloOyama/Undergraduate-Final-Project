@@ -1,0 +1,343 @@
+{
+    "artists": [
+        {
+            "artist_id": "6XyY86QOPPrYVGvF9ch6wz",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz"
+            },
+            "num_followers": 24947983,
+            "genres": [
+                "alternative metal",
+                "nu metal",
+                "post-grunge",
+                "rap metal",
+                "rock"
+            ],
+            "name": "Linkin Park",
+            "popularity": 83
+        },
+        {
+            "artist_id": "7D4sWEhlSOGzN9MfibtSsx",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7D4sWEhlSOGzN9MfibtSsx"
+            },
+            "num_followers": 3791,
+            "genres": [],
+            "name": "The Linkin Park Band",
+            "popularity": 1
+        },
+        {
+            "artist_id": "3Nrfpe0tUJi4K4DXYWgMUX",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"
+            },
+            "num_followers": 71612946,
+            "genres": [
+                "k-pop",
+                "k-pop boy group",
+                "pop"
+            ],
+            "name": "BTS",
+            "popularity": 85
+        },
+        {
+            "artist_id": "2xYJLtVdKyxkTRc27CYIlk",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2xYJLtVdKyxkTRc27CYIlk"
+            },
+            "num_followers": 2195,
+            "genres": [
+                "covertronica"
+            ],
+            "name": "BTSTC",
+            "popularity": 28
+        },
+        {
+            "artist_id": "2VkwSLaUcI7vuprBKzhwkz",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2VkwSLaUcI7vuprBKzhwkz"
+            },
+            "num_followers": 11587,
+            "genres": [
+                "dancehall mauricien"
+            ],
+            "name": "Donovan Bts",
+            "popularity": 32
+        },
+        {
+            "artist_id": "3E0zmIZJN85yOovfGHoH8k",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3E0zmIZJN85yOovfGHoH8k"
+            },
+            "num_followers": 597794,
+            "genres": [],
+            "name": "BTS Island: In the SEOM",
+            "popularity": 22
+        },
+        {
+            "artist_id": "2X374O7KaQWIHUzHeO2yda",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2X374O7KaQWIHUzHeO2yda"
+            },
+            "num_followers": 42,
+            "genres": [],
+            "name": "BTSS",
+            "popularity": 19
+        },
+        {
+            "artist_id": "06HL4z0CvFAxyc27GXpf02",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+            },
+            "num_followers": 95490201,
+            "genres": [
+                "pop"
+            ],
+            "name": "Taylor Swift",
+            "popularity": 100
+        },
+        {
+            "artist_id": "0DwbGCdaD8YLRiVUEiV70Q",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0DwbGCdaD8YLRiVUEiV70Q"
+            },
+            "num_followers": 1667,
+            "genres": [],
+            "name": "Taylor Swift Piano Covers",
+            "popularity": 31
+        },
+        {
+            "artist_id": "5WiLThuSBwqF7SMRrzQbG6",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5WiLThuSBwqF7SMRrzQbG6"
+            },
+            "num_followers": 431,
+            "genres": [],
+            "name": "Taylor Swiftman",
+            "popularity": 3
+        },
+        {
+            "artist_id": "6KImCVD70vtIoJWnq6nGn3",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3"
+            },
+            "num_followers": 30480057,
+            "genres": [
+                "pop"
+            ],
+            "name": "Harry Styles",
+            "popularity": 83
+        },
+        {
+            "artist_id": "6hkRFVWtQjpsmw7ejtr7uY",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6hkRFVWtQjpsmw7ejtr7uY"
+            },
+            "num_followers": 35,
+            "genres": [],
+            "name": "Harry Edward Styles",
+            "popularity": 1
+        },
+        {
+            "artist_id": "1cyRDaqmgGRqWjU8jTCATt",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1cyRDaqmgGRqWjU8jTCATt"
+            },
+            "num_followers": 148,
+            "genres": [],
+            "name": "Harry Styles - Piano Covers",
+            "popularity": 5
+        },
+        {
+            "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+            },
+            "num_followers": 26766009,
+            "genres": [
+                "british invasion",
+                "classic rock",
+                "merseybeat",
+                "psychedelic rock",
+                "rock"
+            ],
+            "name": "The Beatles",
+            "popularity": 83
+        },
+        {
+            "artist_id": "5o723EMxNulM5ydXRh7Qkk",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5o723EMxNulM5ydXRh7Qkk"
+            },
+            "num_followers": 2253,
+            "genres": [],
+            "name": "The Beatles Complete On Ukulele",
+            "popularity": 14
+        },
+        {
+            "artist_id": "3vuYd8ifdPWL3TgjPXgfgF",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3vuYd8ifdPWL3TgjPXgfgF"
+            },
+            "num_followers": 604,
+            "genres": [],
+            "name": "The New Beatles",
+            "popularity": 14
+        },
+        {
+            "artist_id": "5Pi3viYqawZx95Gan2dyC3",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5Pi3viYqawZx95Gan2dyC3"
+            },
+            "num_followers": 2798,
+            "genres": [],
+            "name": "I Hate The Beatles",
+            "popularity": 3
+        },
+        {
+            "artist_id": "2HPX6LgKluE3jv3Q6ZKVyX",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2HPX6LgKluE3jv3Q6ZKVyX"
+            },
+            "num_followers": 28,
+            "genres": [],
+            "name": "The Beatles Piano Covers",
+            "popularity": 4
+        },
+        {
+            "artist_id": "2h93pZq0e7k5yf4dywlkpM",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+            },
+            "num_followers": 12419185,
+            "genres": [
+                "lgbtq+ hip hop",
+                "neo soul"
+            ],
+            "name": "Frank Ocean",
+            "popularity": 82
+        },
+        {
+            "artist_id": "4RpWzrMf3lmcGxpyhOeBOc",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4RpWzrMf3lmcGxpyhOeBOc"
+            },
+            "num_followers": 310,
+            "genres": [],
+            "name": "Frank Ocean (IT)",
+            "popularity": 3
+        },
+        {
+            "artist_id": "5INjqkS1o8h1imAzPqGZBb",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+            },
+            "num_followers": 7160748,
+            "genres": [
+                "australian psych",
+                "modern rock",
+                "neo-psychedelic",
+                "rock"
+            ],
+            "name": "Tame Impala",
+            "popularity": 77
+        },
+        {
+            "artist_id": "66YGDwn22fjphzqGCSIbbK",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/66YGDwn22fjphzqGCSIbbK"
+            },
+            "num_followers": 183904,
+            "genres": [
+                "modern alternative rock",
+                "modern blues rock",
+                "modern hard rock",
+                "saskatchewan indie"
+            ],
+            "name": "Reignwolf",
+            "popularity": 49
+        },
+        {
+            "artist_id": "5y8tKLUfMvliMe8IKamR32",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5y8tKLUfMvliMe8IKamR32"
+            },
+            "num_followers": 2064457,
+            "genres": [
+                "bedroom pop",
+                "bedroom r&b"
+            ],
+            "name": "d4vd",
+            "popularity": 76
+        },
+        {
+            "artist_id": "4Kd15OQWfQdw70yEEllWdm",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4Kd15OQWfQdw70yEEllWdm"
+            },
+            "num_followers": 2254,
+            "genres": [
+                "bedroom r&b"
+            ],
+            "name": "d4vd Archive",
+            "popularity": 9
+        },
+        {
+            "artist_id": "6qqNVTkY8uBg9cP3Jd7DAH",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+            },
+            "num_followers": 89822091,
+            "genres": [
+                "art pop",
+                "pop"
+            ],
+            "name": "Billie Eilish",
+            "popularity": 86
+        },
+        {
+            "artist_id": "59jPhW2wDr8cRGuZs6BItr",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/59jPhW2wDr8cRGuZs6BItr"
+            },
+            "num_followers": 1215,
+            "genres": [],
+            "name": "Billie Eilish O'Connell",
+            "popularity": 9
+        },
+        {
+            "artist_id": "0UIQNwCkrMcYwLSmOirKHh",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0UIQNwCkrMcYwLSmOirKHh"
+            },
+            "num_followers": 537,
+            "genres": [],
+            "name": "Billie Eilish O'Connell and Finneas Baird O'Connell",
+            "popularity": 2
+        },
+        {
+            "artist_id": "69tiO1fG8VWduDl3ji2qhI",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/69tiO1fG8VWduDl3ji2qhI"
+            },
+            "num_followers": 430989,
+            "genres": [
+                "stomp and holler"
+            ],
+            "name": "Mt. Joy",
+            "popularity": 67
+        },
+        {
+            "artist_id": "0iEtIxbK0KxaSlF7G42ZOp",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
+            },
+            "num_followers": 6333124,
+            "genres": [
+                "rap"
+            ],
+            "name": "Metro Boomin",
+            "popularity": 86
+        }
+    ]
+}

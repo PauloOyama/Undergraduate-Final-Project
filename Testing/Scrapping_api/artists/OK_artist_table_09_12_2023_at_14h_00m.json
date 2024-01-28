@@ -1,0 +1,169 @@
+{
+    "artists": [
+        {
+            "artist_id": "2FXC3k01G6Gw61bmprjgqS",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2FXC3k01G6Gw61bmprjgqS"
+            },
+            "num_followers": 6226728,
+            "genres": [
+                "irish singer-songwriter",
+                "modern rock",
+                "pov: indie"
+            ],
+            "name": "Hozier",
+            "popularity": 81
+        },
+        {
+            "artist_id": "4si0Z3C5HiS4pt5L7Z631M",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4si0Z3C5HiS4pt5L7Z631M"
+            },
+            "num_followers": 2029,
+            "genres": [],
+            "name": "Andrew Hozier-Byrne",
+            "popularity": 23
+        },
+        {
+            "artist_id": "62kcvRjVeEwErjsNGXDLi9",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/62kcvRjVeEwErjsNGXDLi9"
+            },
+            "num_followers": 32,
+            "genres": [],
+            "name": "Andrew Hozier Byrne",
+            "popularity": 7
+        },
+        {
+            "artist_id": "31M8EXHYtEqOqVb1X7JRVe",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/31M8EXHYtEqOqVb1X7JRVe"
+            },
+            "num_followers": 124164,
+            "genres": [
+                "boston indie",
+                "modern alternative rock"
+            ],
+            "name": "Dead Poet Society",
+            "popularity": 49
+        },
+        {
+            "artist_id": "7LCW2kl4v58ECaKRAx4a0Y",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7LCW2kl4v58ECaKRAx4a0Y"
+            },
+            "num_followers": 107,
+            "genres": [],
+            "name": "The Dead Poetz Society",
+            "popularity": 2
+        },
+        {
+            "artist_id": "3XHO7cRUPCLOr6jwp8vsx5",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5"
+            },
+            "num_followers": 3231150,
+            "genres": [
+                "indie rock",
+                "indietronica",
+                "modern alternative rock",
+                "modern rock",
+                "rock"
+            ],
+            "name": "alt-J",
+            "popularity": 68
+        },
+        {
+            "artist_id": "0VgLY86OVhqMOAZrMjQO8o",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0VgLY86OVhqMOAZrMjQO8o"
+            },
+            "num_followers": 12622,
+            "genres": [],
+            "name": "Jose Torres El Rey De Alto Mando",
+            "popularity": 42
+        },
+        {
+            "artist_id": "6UtAd1rrgAMSdH8uF8AvqL",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6UtAd1rrgAMSdH8uF8AvqL"
+            },
+            "num_followers": 206622,
+            "genres": [
+                "sertanejo",
+                "sertanejo tradicional",
+                "sertanejo universitario"
+            ],
+            "name": "Althaír & Alexandre",
+            "popularity": 49
+        },
+        {
+            "artist_id": "0kR7XYMH583I9XyakShf9f",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0kR7XYMH583I9XyakShf9f"
+            },
+            "num_followers": 508,
+            "genres": [
+                "instrumental worship",
+                "piano worship"
+            ],
+            "name": "Jeffrey Althouse",
+            "popularity": 34
+        },
+        {
+            "artist_id": "1MD43KaP0yNmH4ffApOecX",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1MD43KaP0yNmH4ffApOecX"
+            },
+            "num_followers": 6672,
+            "genres": [
+                "nederlandse hardstyle"
+            ],
+            "name": "Altijd Larstig & Rob Gasd'rop",
+            "popularity": 39
+        },
+        {
+            "artist_id": "2Z0lRIqr997lIUiPtrpKCr",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2Z0lRIqr997lIUiPtrpKCr"
+            },
+            "num_followers": 11385082,
+            "genres": [
+                "agronejo",
+                "arrocha",
+                "pop nacional",
+                "sertanejo",
+                "sertanejo universitario"
+            ],
+            "name": "Matheus & Kauan",
+            "popularity": 75
+        },
+        {
+            "artist_id": "6tw6EpC9RgmSRZiZg0n22t",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6tw6EpC9RgmSRZiZg0n22t"
+            },
+            "num_followers": 6175224,
+            "genres": [
+                "brazilian rock",
+                "mpb",
+                "rock brasiliense",
+                "rock nacional brasileiro"
+            ],
+            "name": "Legião Urbana",
+            "popularity": 66
+        },
+        {
+            "artist_id": "04gDigrS5kc9YWfZHwBETP",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP"
+            },
+            "num_followers": 41957505,
+            "genres": [
+                "pop"
+            ],
+            "name": "Maroon 5",
+            "popularity": 83
+        }
+    ]
+}

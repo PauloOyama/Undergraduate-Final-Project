@@ -1,0 +1,280 @@
+{
+    "artists": [
+        {
+            "artist_id": "6qqNVTkY8uBg9cP3Jd7DAH",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+            },
+            "num_followers": 89918217,
+            "genres": [
+                "art pop",
+                "pop"
+            ],
+            "name": "Billie Eilish",
+            "popularity": 86
+        },
+        {
+            "artist_id": "59jPhW2wDr8cRGuZs6BItr",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/59jPhW2wDr8cRGuZs6BItr"
+            },
+            "num_followers": 1215,
+            "genres": [],
+            "name": "Billie Eilish O'Connell",
+            "popularity": 9
+        },
+        {
+            "artist_id": "0UIQNwCkrMcYwLSmOirKHh",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0UIQNwCkrMcYwLSmOirKHh"
+            },
+            "num_followers": 537,
+            "genres": [],
+            "name": "Billie Eilish O'Connell and Finneas Baird O'Connell",
+            "popularity": 2
+        },
+        {
+            "artist_id": "6HaGTQPmzraVmaVxvz6EUc",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6HaGTQPmzraVmaVxvz6EUc"
+            },
+            "num_followers": 11762710,
+            "genres": [
+                "k-pop"
+            ],
+            "name": "Jung Kook",
+            "popularity": 89
+        },
+        {
+            "artist_id": "2h93pZq0e7k5yf4dywlkpM",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM"
+            },
+            "num_followers": 12442621,
+            "genres": [
+                "lgbtq+ hip hop",
+                "neo soul"
+            ],
+            "name": "Frank Ocean",
+            "popularity": 83
+        },
+        {
+            "artist_id": "4RpWzrMf3lmcGxpyhOeBOc",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4RpWzrMf3lmcGxpyhOeBOc"
+            },
+            "num_followers": 310,
+            "genres": [],
+            "name": "Frank Ocean (IT)",
+            "popularity": 3
+        },
+        {
+            "artist_id": "4dpARuHxo51G3z768sgnrY",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY"
+            },
+            "num_followers": 53198915,
+            "genres": [
+                "british soul",
+                "pop",
+                "pop soul",
+                "uk pop"
+            ],
+            "name": "Adele",
+            "popularity": 83
+        },
+        {
+            "artist_id": "4ueh4hmRvt62k4BgP8dIS0",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4ueh4hmRvt62k4BgP8dIS0"
+            },
+            "num_followers": 43983,
+            "genres": [],
+            "name": "Adèle Castillon",
+            "popularity": 59
+        },
+        {
+            "artist_id": "1z2GIqUV62qrl1J5sXalOT",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1z2GIqUV62qrl1J5sXalOT"
+            },
+            "num_followers": 1371,
+            "genres": [],
+            "name": "Adeleye Omotayo",
+            "popularity": 45
+        },
+        {
+            "artist_id": "19RHMn8FFkEFmhPwyDW2ZC",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/19RHMn8FFkEFmhPwyDW2ZC"
+            },
+            "num_followers": 53223,
+            "genres": [
+                "cabaret"
+            ],
+            "name": "Robyn Adele Anderson",
+            "popularity": 37
+        },
+        {
+            "artist_id": "0a2ajcpx0sNtenVpRn7epd",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0a2ajcpx0sNtenVpRn7epd"
+            },
+            "num_followers": 31,
+            "genres": [],
+            "name": "Adele Cavanaugh",
+            "popularity": 24
+        },
+        {
+            "artist_id": "6Q192DXotxtaysaqNPy5yR",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR"
+            },
+            "num_followers": 8617751,
+            "genres": [
+                "british soul",
+                "neo soul"
+            ],
+            "name": "Amy Winehouse",
+            "popularity": 73
+        },
+        {
+            "artist_id": "0LyNy7WH76qOIJMrU4dgNo",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0LyNy7WH76qOIJMrU4dgNo"
+            },
+            "num_followers": 1906,
+            "genres": [],
+            "name": "Jools Holland, Amy Winehouse and Paul Weller",
+            "popularity": 19
+        },
+        {
+            "artist_id": "1NNc1j0ZR5IqdF7wan17k2",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1NNc1j0ZR5IqdF7wan17k2"
+            },
+            "num_followers": 122,
+            "genres": [],
+            "name": "Made famous by Amy Winehouse",
+            "popularity": 2
+        },
+        {
+            "artist_id": "4gdNdnXiwDxXK4WWxU9Fy4",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4gdNdnXiwDxXK4WWxU9Fy4"
+            },
+            "num_followers": 5315,
+            "genres": [
+                "tierra caliente"
+            ],
+            "name": "Los Hermanos Arellano",
+            "popularity": 22
+        },
+        {
+            "artist_id": "22GEcjAc2Uvgl2neYIZwdL",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/22GEcjAc2Uvgl2neYIZwdL"
+            },
+            "num_followers": 4216,
+            "genres": [],
+            "name": "Los Humildes Hermanos Ayala",
+            "popularity": 27
+        },
+        {
+            "artist_id": "7wZ1tUeTycKjEwlXUqliDS",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7wZ1tUeTycKjEwlXUqliDS"
+            },
+            "num_followers": 9942,
+            "genres": [],
+            "name": "Los Hermanos Alvarado",
+            "popularity": 25
+        },
+        {
+            "artist_id": "1ad7426spDWBAEabgT2iHn",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1ad7426spDWBAEabgT2iHn"
+            },
+            "num_followers": 219,
+            "genres": [],
+            "name": "Los Hermanos Aicardi",
+            "popularity": 19
+        },
+        {
+            "artist_id": "2kKOUPUveTynU8RXhvUXLW",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2kKOUPUveTynU8RXhvUXLW"
+            },
+            "num_followers": 1975,
+            "genres": [],
+            "name": "Los Autenticos Hermanos Banda De Salamanca",
+            "popularity": 19
+        },
+        {
+            "artist_id": "40FzPNKgu0k9VMvvidiKCl",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/40FzPNKgu0k9VMvvidiKCl"
+            },
+            "num_followers": 311934,
+            "genres": [
+                "merengue",
+                "salsa",
+                "tropical"
+            ],
+            "name": "Los Hermanos Rosario",
+            "popularity": 52
+        },
+        {
+            "artist_id": "3S43VHav7suUXwnPFvoR9O",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3S43VHav7suUXwnPFvoR9O"
+            },
+            "num_followers": 42487,
+            "genres": [
+                "cumbia salvadorena"
+            ],
+            "name": "Los Hermanos Flores",
+            "popularity": 45
+        },
+        {
+            "artist_id": "7Brxri4l1ATShikyHXsEr6",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7Brxri4l1ATShikyHXsEr6"
+            },
+            "num_followers": 915552,
+            "genres": [
+                "brazilian rock",
+                "mpb",
+                "nova mpb",
+                "rock alternativo brasileiro",
+                "rock nacional brasileiro"
+            ],
+            "name": "Los Hermanos",
+            "popularity": 56
+        },
+        {
+            "artist_id": "2kAjmak5w94nKWQO2Q8oYH",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2kAjmak5w94nKWQO2Q8oYH"
+            },
+            "num_followers": 71567,
+            "genres": [
+                "gruperas inmortales"
+            ],
+            "name": "Los Hermanos Barron",
+            "popularity": 39
+        },
+        {
+            "artist_id": "3cLuW4KXC2yyoa5DcKmSZZ",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3cLuW4KXC2yyoa5DcKmSZZ"
+            },
+            "num_followers": 36331,
+            "genres": [
+                "musica cristiana guatemalteca"
+            ],
+            "name": "Los Hermanos Martinez de El Salvador",
+            "popularity": 36
+        }
+    ]
+}

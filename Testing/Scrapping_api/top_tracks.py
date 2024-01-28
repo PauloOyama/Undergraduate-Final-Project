@@ -34,7 +34,7 @@ spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 # Iterate directory
 for path in os.listdir(dir_path):
     # check if current path is a file
-    if path.startswith("ROK_"):
+    if path.startswith("OK_"):
         continue
     if os.path.isfile(os.path.join(dir_path, path)):
         jsonFiles.append(os.path.join(dir_path, path))
@@ -61,11 +61,11 @@ try:
                         top_track_table["top_tracks"].append(filterTopTrackStats(track))
                 count += 1
 
-        new_name = "R" + file.split("/")[2]
+        new_name = "OK_" + file.split("/")[2]
         os.rename(file, os.path.join(dir_path, new_name))
 
 except Exception as e:
-    print("Deu Ruim ", e)
+    print("An error has occured: ", e)
     print(f"caught {type(e)}: e")
 
 finally:
