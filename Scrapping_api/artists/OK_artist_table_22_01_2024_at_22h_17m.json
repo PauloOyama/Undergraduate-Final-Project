@@ -1,0 +1,946 @@
+{
+    "artists": [
+        {
+            "artist_id": "66CXWjxzNUsdJxJ2JdwvnR",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+            },
+            "num_followers": 95612607,
+            "genres": [
+                "pop"
+            ],
+            "name": "Ariana Grande",
+            "popularity": 90
+        },
+        {
+            "artist_id": "53briF9i45bOTMyBWWkmzy",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/53briF9i45bOTMyBWWkmzy"
+            },
+            "num_followers": 244,
+            "genres": [],
+            "name": "Jeremy Backhouse",
+            "popularity": 35
+        },
+        {
+            "artist_id": "1ln7aue0Yjz4QOqcf2gtUL",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1ln7aue0Yjz4QOqcf2gtUL"
+            },
+            "num_followers": 14634,
+            "genres": [],
+            "name": "Backhouse Mike",
+            "popularity": 19
+        },
+        {
+            "artist_id": "66UCnFuIhlhvG12wMWeGsA",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/66UCnFuIhlhvG12wMWeGsA"
+            },
+            "num_followers": 992,
+            "genres": [],
+            "name": "Backhouse",
+            "popularity": 17
+        },
+        {
+            "artist_id": "4ltG228nFkgVYgPW8BJMPp",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4ltG228nFkgVYgPW8BJMPp"
+            },
+            "num_followers": 1939,
+            "genres": [],
+            "name": "Backhouse Mike",
+            "popularity": 18
+        },
+        {
+            "artist_id": "3iC45HcbQN9jtqfT7meNld",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3iC45HcbQN9jtqfT7meNld"
+            },
+            "num_followers": 10367,
+            "genres": [
+                "classical performance",
+                "german classical piano",
+                "historic piano performance"
+            ],
+            "name": "Wilhelm Backhaus",
+            "popularity": 22
+        },
+        {
+            "artist_id": "5aIqB5nVVvmFsvSdExz408",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+            },
+            "num_followers": 4222213,
+            "genres": [
+                "baroque",
+                "classical",
+                "early music",
+                "german baroque"
+            ],
+            "name": "Johann Sebastian Bach",
+            "popularity": 77
+        },
+        {
+            "artist_id": "5q4AzEtCoYJyXjMMoEkSU5",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5q4AzEtCoYJyXjMMoEkSU5"
+            },
+            "num_followers": 980528,
+            "genres": [
+                "album rock",
+                "classic canadian rock",
+                "classic rock",
+                "country rock",
+                "folk rock",
+                "hard rock",
+                "mellow gold",
+                "rock",
+                "singer-songwriter",
+                "soft rock"
+            ],
+            "name": "Bachman-Turner Overdrive",
+            "popularity": 56
+        },
+        {
+            "artist_id": "3meioy7GWDwpwmjv2LPyAb",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3meioy7GWDwpwmjv2LPyAb"
+            },
+            "num_followers": 116666,
+            "genres": [
+                "classical",
+                "classical era",
+                "galante era",
+                "german baroque"
+            ],
+            "name": "Carl Philipp Emanuel Bach",
+            "popularity": 58
+        },
+        {
+            "artist_id": "4RnIr0AAau1SBJMbjJ9poC",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4RnIr0AAau1SBJMbjJ9poC"
+            },
+            "num_followers": 292761,
+            "genres": [
+                "bachata",
+                "bachata dominicana"
+            ],
+            "name": "El Chaval de la Bachata",
+            "popularity": 54
+        },
+        {
+            "artist_id": "3KEb1kbIZN5jumsjFEWgSW",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3KEb1kbIZN5jumsjFEWgSW"
+            },
+            "num_followers": 39783,
+            "genres": [
+                "pop rock"
+            ],
+            "name": "Tal Bachman",
+            "popularity": 53
+        },
+        {
+            "artist_id": "4NJhFmfw43RLBLjQvxDuRS",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4NJhFmfw43RLBLjQvxDuRS"
+            },
+            "num_followers": 5276173,
+            "genres": [
+                "classical",
+                "classical era"
+            ],
+            "name": "Wolfgang Amadeus Mozart",
+            "popularity": 73
+        },
+        {
+            "artist_id": "1sylrdKARMDYTJbs8IPWGy",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1sylrdKARMDYTJbs8IPWGy"
+            },
+            "num_followers": 6383,
+            "genres": [
+                "british orchestra",
+                "chamber orchestra",
+                "classical performance"
+            ],
+            "name": "London Mozart Players",
+            "popularity": 51
+        },
+        {
+            "artist_id": "0odliLZMTk45CEVzF3Zocl",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0odliLZMTk45CEVzF3Zocl"
+            },
+            "num_followers": 402874,
+            "genres": [
+                "dembow",
+                "rap dominicano"
+            ],
+            "name": "Mozart La Para",
+            "popularity": 50
+        },
+        {
+            "artist_id": "32QzlLbdI90xZtgtHorqzB",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/32QzlLbdI90xZtgtHorqzB"
+            },
+            "num_followers": 40586,
+            "genres": [
+                "lullaby"
+            ],
+            "name": "Baby Mozart",
+            "popularity": 43
+        },
+        {
+            "artist_id": "7m5yQHpGKbm9YHcUdrZElN",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7m5yQHpGKbm9YHcUdrZElN"
+            },
+            "num_followers": 3353,
+            "genres": [
+                "austrian orchestra",
+                "orchestra"
+            ],
+            "name": "Mozarteum Orchestra Salzburg",
+            "popularity": 39
+        },
+        {
+            "artist_id": "12hOsHuAjZNBhQl2Tawwuf",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/12hOsHuAjZNBhQl2Tawwuf"
+            },
+            "num_followers": 690,
+            "genres": [],
+            "name": "Bethoven Villaman",
+            "popularity": 30
+        },
+        {
+            "artist_id": "5CswRYtpR7JIi7daHAypjK",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5CswRYtpR7JIi7daHAypjK"
+            },
+            "num_followers": 27,
+            "genres": [],
+            "name": "Bethoven La Fabula",
+            "popularity": 17
+        },
+        {
+            "artist_id": "49GUeJiJ4Nn3923Mq3EhTs",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/49GUeJiJ4Nn3923Mq3EhTs"
+            },
+            "num_followers": 643,
+            "genres": [],
+            "name": "Black Bethoven",
+            "popularity": 4
+        },
+        {
+            "artist_id": "2YDyIJU8OqAVajJDYFkwBl",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2YDyIJU8OqAVajJDYFkwBl"
+            },
+            "num_followers": 1,
+            "genres": [],
+            "name": "Bethoven Villaman",
+            "popularity": 4
+        },
+        {
+            "artist_id": "2Z0lRIqr997lIUiPtrpKCr",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2Z0lRIqr997lIUiPtrpKCr"
+            },
+            "num_followers": 11047416,
+            "genres": [
+                "agronejo",
+                "arrocha",
+                "pop nacional",
+                "sertanejo",
+                "sertanejo universitario"
+            ],
+            "name": "Matheus & Kauan",
+            "popularity": 77
+        },
+        {
+            "artist_id": "3qvcCP2J0fWi0m0uQDUf6r",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3qvcCP2J0fWi0m0uQDUf6r"
+            },
+            "num_followers": 7468928,
+            "genres": [
+                "arrocha",
+                "sertanejo",
+                "sertanejo universitario"
+            ],
+            "name": "Luan Santana",
+            "popularity": 79
+        },
+        {
+            "artist_id": "4BCHxjKuqNSqGcDjzNtGrL",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4BCHxjKuqNSqGcDjzNtGrL"
+            },
+            "num_followers": 50,
+            "genres": [],
+            "name": "Luan Santana",
+            "popularity": 22
+        },
+        {
+            "artist_id": "6TspMCBrYONflLYikm9Ivb",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6TspMCBrYONflLYikm9Ivb"
+            },
+            "num_followers": 9963,
+            "genres": [],
+            "name": "Lucas Inutilismo",
+            "popularity": 20
+        },
+        {
+            "artist_id": "4gzpq5DPGxSnKTe4SA8HAU",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+            },
+            "num_followers": 48925591,
+            "genres": [
+                "permanent wave",
+                "pop"
+            ],
+            "name": "Coldplay",
+            "popularity": 87
+        },
+        {
+            "artist_id": "14cDx3yNMNO94Ghqo3kVoF",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/14cDx3yNMNO94Ghqo3kVoF"
+            },
+            "num_followers": 241,
+            "genres": [],
+            "name": "Coldplay & Lele",
+            "popularity": 7
+        },
+        {
+            "artist_id": "5nCi3BB41mBaMH9gfr6Su0",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5nCi3BB41mBaMH9gfr6Su0"
+            },
+            "num_followers": 3237474,
+            "genres": [
+                "baroque pop",
+                "metropopolis"
+            ],
+            "name": "fun.",
+            "popularity": 66
+        },
+        {
+            "artist_id": "4A0TivfinfALCAMJqqjZIk",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4A0TivfinfALCAMJqqjZIk"
+            },
+            "num_followers": 12683,
+            "genres": [
+                "funktronica"
+            ],
+            "name": "Funk Wav",
+            "popularity": 64
+        },
+        {
+            "artist_id": "5auLWD3XT6p3im19G2cLhP",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5auLWD3XT6p3im19G2cLhP"
+            },
+            "num_followers": 6654,
+            "genres": [
+                "deep comedy"
+            ],
+            "name": "Ron Funches",
+            "popularity": 58
+        },
+        {
+            "artist_id": "64DTkZLH6KkkMwZEEZ5VWC",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/64DTkZLH6KkkMwZEEZ5VWC"
+            },
+            "num_followers": 405713,
+            "genres": [],
+            "name": "Love Funk",
+            "popularity": 71
+        },
+        {
+            "artist_id": "4B4YYJ0BAYBK86yxqQV7mu",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4B4YYJ0BAYBK86yxqQV7mu"
+            },
+            "num_followers": 808790,
+            "genres": [
+                "latin christian",
+                "rap cristiano",
+                "reggaeton cristiano"
+            ],
+            "name": "Funky",
+            "popularity": 63
+        },
+        {
+            "artist_id": "74XFHRwlV6OrjEM0A2NCMF",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF"
+            },
+            "num_followers": 8257693,
+            "genres": [
+                "candy pop",
+                "modern rock",
+                "pixie",
+                "pop",
+                "pop emo",
+                "pop punk",
+                "rock"
+            ],
+            "name": "Paramore",
+            "popularity": 77
+        },
+        {
+            "artist_id": "0L6DhLCOfhWJYMCQIibUx2",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0L6DhLCOfhWJYMCQIibUx2"
+            },
+            "num_followers": 630,
+            "genres": [
+                "black comedy"
+            ],
+            "name": "Mike Paramore",
+            "popularity": 20
+        },
+        {
+            "artist_id": "0ukENMjCLGoxvs987mgoUL",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0ukENMjCLGoxvs987mgoUL"
+            },
+            "num_followers": 45,
+            "genres": [],
+            "name": "George Paramore",
+            "popularity": 13
+        },
+        {
+            "artist_id": "5WLMo532eH9WwzPSGFoUBN",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5WLMo532eH9WwzPSGFoUBN"
+            },
+            "num_followers": 89,
+            "genres": [],
+            "name": "Mike Paramore",
+            "popularity": 7
+        },
+        {
+            "artist_id": "0JOKCRQ5YhO30SNW76vQCm",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0JOKCRQ5YhO30SNW76vQCm"
+            },
+            "num_followers": 529,
+            "genres": [],
+            "name": "Death In The Park (feat. Hayley Williams of Paramore)",
+            "popularity": 6
+        },
+        {
+            "artist_id": "4gwpcMTbLWtBUlOijbVpuu",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4gwpcMTbLWtBUlOijbVpuu"
+            },
+            "num_followers": 882378,
+            "genres": [
+                "metropopolis",
+                "modern rock"
+            ],
+            "name": "Capital Cities",
+            "popularity": 66
+        },
+        {
+            "artist_id": "5iyfkAW3CQ4r02nMXkxokV",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5iyfkAW3CQ4r02nMXkxokV"
+            },
+            "num_followers": 3,
+            "genres": [],
+            "name": "Sebu (Capital Cities)",
+            "popularity": 7
+        },
+        {
+            "artist_id": "7EQ0qTo7fWT7DPxmxtSYEc",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7EQ0qTo7fWT7DPxmxtSYEc"
+            },
+            "num_followers": 5485077,
+            "genres": [
+                "metropopolis",
+                "modern rock",
+                "pop"
+            ],
+            "name": "Bastille",
+            "popularity": 74
+        },
+        {
+            "artist_id": "4w8yzPixoCNwxRpUZYpWpP",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4w8yzPixoCNwxRpUZYpWpP"
+            },
+            "num_followers": 816,
+            "genres": [
+                "french orchestra"
+            ],
+            "name": "Orchestre de l'Opéra Bastille",
+            "popularity": 9
+        },
+        {
+            "artist_id": "5QQTFNd1m5qKSP8b9Jj93E",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5QQTFNd1m5qKSP8b9Jj93E"
+            },
+            "num_followers": 28,
+            "genres": [],
+            "name": "Choeurs de l'Opera Bastille",
+            "popularity": 6
+        },
+        {
+            "artist_id": "6B3Py7hiFv7V2dSbwKIvgG",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6B3Py7hiFv7V2dSbwKIvgG"
+            },
+            "num_followers": 2,
+            "genres": [],
+            "name": "Michael Bastille",
+            "popularity": 7
+        },
+        {
+            "artist_id": "3b08Ubi0aJdnRTJzUnT7J6",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3b08Ubi0aJdnRTJzUnT7J6"
+            },
+            "num_followers": 1,
+            "genres": [],
+            "name": "Choeur de l'Opéra Bastille",
+            "popularity": 5
+        },
+        {
+            "artist_id": "33NVpKoXjItPwUJTMZIOiY",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/33NVpKoXjItPwUJTMZIOiY"
+            },
+            "num_followers": 1895836,
+            "genres": [
+                "gen z singer-songwriter",
+                "singer-songwriter pop"
+            ],
+            "name": "David Kushner",
+            "popularity": 77
+        },
+        {
+            "artist_id": "6MQhMvMTFK4nAQzoOKrwY3",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6MQhMvMTFK4nAQzoOKrwY3"
+            },
+            "num_followers": 2281873,
+            "genres": [
+                "brazilian gospel"
+            ],
+            "name": "Cassiane",
+            "popularity": 56
+        },
+        {
+            "artist_id": "754GsjALc0WkYIDzrf6e7H",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/754GsjALc0WkYIDzrf6e7H"
+            },
+            "num_followers": 358760,
+            "genres": [
+                "brazilian gospel",
+                "gospel antigas"
+            ],
+            "name": "Cassiane e Jairinho",
+            "popularity": 32
+        },
+        {
+            "artist_id": "6fUlk5ncJyD5eEihahYB1P",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6fUlk5ncJyD5eEihahYB1P"
+            },
+            "num_followers": 58,
+            "genres": [],
+            "name": "Cassiane e Coral Renasom",
+            "popularity": 12
+        },
+        {
+            "artist_id": "5CZBpR6cS83eXerKAgqrGp",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5CZBpR6cS83eXerKAgqrGp"
+            },
+            "num_followers": 206,
+            "genres": [],
+            "name": "Cassiane e Grupo Baluarte de Louvores",
+            "popularity": 5
+        },
+        {
+            "artist_id": "6tw6EpC9RgmSRZiZg0n22t",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6tw6EpC9RgmSRZiZg0n22t"
+            },
+            "num_followers": 6124908,
+            "genres": [
+                "brazilian rock",
+                "mpb",
+                "rock brasiliense",
+                "rock nacional brasileiro"
+            ],
+            "name": "Legião Urbana",
+            "popularity": 68
+        },
+        {
+            "artist_id": "2dmQ0vMD3THLMcz7DsvfaT",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2dmQ0vMD3THLMcz7DsvfaT"
+            },
+            "num_followers": 2234234,
+            "genres": [
+                "brazilian rock",
+                "hard rock brasileiro",
+                "pop rock brasileiro",
+                "rock baiano"
+            ],
+            "name": "Pitty",
+            "popularity": 62
+        },
+        {
+            "artist_id": "625kGlmcaDymYRSEawXlI9",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/625kGlmcaDymYRSEawXlI9"
+            },
+            "num_followers": 27924,
+            "genres": [
+                "cuarteto"
+            ],
+            "name": "Pitty Murua",
+            "popularity": 36
+        },
+        {
+            "artist_id": "5pmTVVojUxzA1dEelSKdje",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5pmTVVojUxzA1dEelSKdje"
+            },
+            "num_followers": 52,
+            "genres": [],
+            "name": "Pitty Menezes",
+            "popularity": 35
+        },
+        {
+            "artist_id": "1zAkmiNpJyMPsXrInRrGiq",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1zAkmiNpJyMPsXrInRrGiq"
+            },
+            "num_followers": 45585,
+            "genres": [
+                "pagode baiano"
+            ],
+            "name": "Pittybull",
+            "popularity": 35
+        },
+        {
+            "artist_id": "6AHUrY1pX6lWfnO4Jhlcor",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6AHUrY1pX6lWfnO4Jhlcor"
+            },
+            "num_followers": 150,
+            "genres": [],
+            "name": "Vikram Pitty",
+            "popularity": 19
+        },
+        {
+            "artist_id": "2fJMTjBspUhQcZYEtZoyVc",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2fJMTjBspUhQcZYEtZoyVc"
+            },
+            "num_followers": 20054,
+            "genres": [
+                "argentine reggae"
+            ],
+            "name": "La Zimbabwe",
+            "popularity": 41
+        },
+        {
+            "artist_id": "2p55fAvb1Tjh63kAXd0qSb",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2p55fAvb1Tjh63kAXd0qSb"
+            },
+            "num_followers": 7264,
+            "genres": [
+                "sda a cappella",
+                "zim gospel"
+            ],
+            "name": "Firm Faith Zimbabwe",
+            "popularity": 26
+        },
+        {
+            "artist_id": "4s35bUDFJoEk1UnbfQ4wOW",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4s35bUDFJoEk1UnbfQ4wOW"
+            },
+            "num_followers": 3390,
+            "genres": [
+                "zim hip hop",
+                "zim urban groove"
+            ],
+            "name": "Zimbabwe Legit",
+            "popularity": 13
+        },
+        {
+            "artist_id": "2v4nnZUv8Vd6dlwn4reAD4",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2v4nnZUv8Vd6dlwn4reAD4"
+            },
+            "num_followers": 2073,
+            "genres": [
+                "frafra"
+            ],
+            "name": "Atongo Zimba",
+            "popularity": 14
+        },
+        {
+            "artist_id": "2dXm6P9dr47h92KMchlZAs",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2dXm6P9dr47h92KMchlZAs"
+            },
+            "num_followers": 65,
+            "genres": [],
+            "name": "Learn Zimbabwe",
+            "popularity": 12
+        },
+        {
+            "artist_id": "40FzPNKgu0k9VMvvidiKCl",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/40FzPNKgu0k9VMvvidiKCl"
+            },
+            "num_followers": 312624,
+            "genres": [
+                "merengue",
+                "salsa",
+                "tropical"
+            ],
+            "name": "Los Hermanos Rosario",
+            "popularity": 54
+        },
+        {
+            "artist_id": "3S43VHav7suUXwnPFvoR9O",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3S43VHav7suUXwnPFvoR9O"
+            },
+            "num_followers": 42606,
+            "genres": [
+                "cumbia salvadorena"
+            ],
+            "name": "Los Hermanos Flores",
+            "popularity": 46
+        },
+        {
+            "artist_id": "7Brxri4l1ATShikyHXsEr6",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7Brxri4l1ATShikyHXsEr6"
+            },
+            "num_followers": 907424,
+            "genres": [
+                "brazilian rock",
+                "mpb",
+                "nova mpb",
+                "rock alternativo brasileiro",
+                "rock nacional brasileiro"
+            ],
+            "name": "Los Hermanos",
+            "popularity": 57
+        },
+        {
+            "artist_id": "2kAjmak5w94nKWQO2Q8oYH",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2kAjmak5w94nKWQO2Q8oYH"
+            },
+            "num_followers": 70775,
+            "genres": [
+                "gruperas inmortales"
+            ],
+            "name": "Los Hermanos Barron",
+            "popularity": 40
+        },
+        {
+            "artist_id": "3cLuW4KXC2yyoa5DcKmSZZ",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3cLuW4KXC2yyoa5DcKmSZZ"
+            },
+            "num_followers": 36103,
+            "genres": [
+                "musica cristiana guatemalteca"
+            ],
+            "name": "Los Hermanos Martinez de El Salvador",
+            "popularity": 38
+        },
+        {
+            "artist_id": "6tw6EpC9RgmSRZiZg0n22t",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6tw6EpC9RgmSRZiZg0n22t"
+            },
+            "num_followers": 6124908,
+            "genres": [
+                "brazilian rock",
+                "mpb",
+                "rock brasiliense",
+                "rock nacional brasileiro"
+            ],
+            "name": "Legião Urbana",
+            "popularity": 68
+        },
+        {
+            "artist_id": "5Q9RKJrjHdfpWVxzv45XTJ",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5Q9RKJrjHdfpWVxzv45XTJ"
+            },
+            "num_followers": 1285537,
+            "genres": [
+                "brazilian rock",
+                "rock nacional brasileiro"
+            ],
+            "name": "Mamonas Assassinas",
+            "popularity": 60
+        },
+        {
+            "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+            },
+            "num_followers": 26816887,
+            "genres": [
+                "british invasion",
+                "classic rock",
+                "merseybeat",
+                "psychedelic rock",
+                "rock"
+            ],
+            "name": "The Beatles",
+            "popularity": 83
+        },
+        {
+            "artist_id": "5o723EMxNulM5ydXRh7Qkk",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5o723EMxNulM5ydXRh7Qkk"
+            },
+            "num_followers": 2284,
+            "genres": [],
+            "name": "The Beatles Complete On Ukulele",
+            "popularity": 14
+        },
+        {
+            "artist_id": "3vuYd8ifdPWL3TgjPXgfgF",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3vuYd8ifdPWL3TgjPXgfgF"
+            },
+            "num_followers": 678,
+            "genres": [],
+            "name": "The New Beatles",
+            "popularity": 15
+        },
+        {
+            "artist_id": "2HPX6LgKluE3jv3Q6ZKVyX",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2HPX6LgKluE3jv3Q6ZKVyX"
+            },
+            "num_followers": 33,
+            "genres": [],
+            "name": "The Beatles Piano Covers",
+            "popularity": 6
+        },
+        {
+            "artist_id": "1NBrPCyaqHOfVOJgjfybVi",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1NBrPCyaqHOfVOJgjfybVi"
+            },
+            "num_followers": 36,
+            "genres": [],
+            "name": "Jolly Joker and the Plastic Beatles of the Universe",
+            "popularity": 5
+        },
+        {
+            "artist_id": "22bE4uQ6baNwSHPVcDxLCe",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+            },
+            "num_followers": 13642155,
+            "genres": [
+                "album rock",
+                "british invasion",
+                "classic rock",
+                "rock"
+            ],
+            "name": "The Rolling Stones",
+            "popularity": 79
+        },
+        {
+            "artist_id": "2w8gwXOK2qyjGjBzNRfO8Z",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2w8gwXOK2qyjGjBzNRfO8Z"
+            },
+            "num_followers": 156,
+            "genres": [],
+            "name": "The Rolling Stones Experience",
+            "popularity": 13
+        },
+        {
+            "artist_id": "3fMbdgg4jU18AjLCKBhRSm",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "num_followers": 29759990,
+            "genres": [
+                "r&b",
+                "soul"
+            ],
+            "name": "Michael Jackson",
+            "popularity": 81
+        },
+        {
+            "artist_id": "2MR0a6Lp2tRxEjm4gdNiaO",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2MR0a6Lp2tRxEjm4gdNiaO"
+            },
+            "num_followers": 551,
+            "genres": [
+                "broadway"
+            ],
+            "name": "Michael R. Jackson",
+            "popularity": 11
+        },
+        {
+            "artist_id": "5OURNqzn8QmdMHVWSQ83eo",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5OURNqzn8QmdMHVWSQ83eo"
+            },
+            "num_followers": 54,
+            "genres": [],
+            "name": "Michael Jackson",
+            "popularity": 14
+        },
+        {
+            "artist_id": "7e8PukqCDqWMOtiVGd7Xw2",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7e8PukqCDqWMOtiVGd7Xw2"
+            },
+            "num_followers": 438,
+            "genres": [],
+            "name": "Michael J. Jackson",
+            "popularity": 16
+        },
+        {
+            "artist_id": "4Q3aSZGYDiFjmeoilPa8zE",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4Q3aSZGYDiFjmeoilPa8zE"
+            },
+            "num_followers": 868,
+            "genres": [],
+            "name": "Michael Jackson For Siegfried",
+            "popularity": 6
+        }
+    ]
+}

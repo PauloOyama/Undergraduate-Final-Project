@@ -1,0 +1,69 @@
+{
+    "artists": [
+        {
+            "artist_id": "6fW7RVTLEUFJVpIwpkwWss",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6fW7RVTLEUFJVpIwpkwWss"
+            },
+            "num_followers": 140,
+            "genres": [],
+            "name": "golden / hour",
+            "popularity": 32
+        },
+        {
+            "artist_id": "417G6SE7KEt6QF2rug6Qfj",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/417G6SE7KEt6QF2rug6Qfj"
+            },
+            "num_followers": 252,
+            "genres": [],
+            "name": "Golden Hour",
+            "popularity": 18
+        },
+        {
+            "artist_id": "4ui6RiF2l6WxNYZjkTLO3F",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4ui6RiF2l6WxNYZjkTLO3F"
+            },
+            "num_followers": 431,
+            "genres": [
+                "background jazz"
+            ],
+            "name": "The Golden Hour Quartet",
+            "popularity": 24
+        },
+        {
+            "artist_id": "4XIHCekbPVHwNyi1fPKf74",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4XIHCekbPVHwNyi1fPKf74"
+            },
+            "num_followers": 124,
+            "genres": [],
+            "name": "golden hour",
+            "popularity": 8
+        },
+        {
+            "artist_id": "6UkQ7kWeDHOQYE4hzWhXuT",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6UkQ7kWeDHOQYE4hzWhXuT"
+            },
+            "num_followers": 747,
+            "genres": [],
+            "name": "Golden Hours",
+            "popularity": 5
+        },
+        {
+            "artist_id": "6S9bLkEZSVIcY18RNcNG50",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6S9bLkEZSVIcY18RNcNG50"
+            },
+            "num_followers": 45050,
+            "genres": [
+                "british soundtrack",
+                "soundtrack"
+            ],
+            "name": "Nicholas Hooper",
+            "popularity": 56
+        }
+    ]
+}
