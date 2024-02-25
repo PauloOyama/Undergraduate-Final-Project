@@ -3,3 +3,5 @@ Testing/test-api
 Testing/web-api-examples/*
 Testing/Scrapping_api/__pycache__/
 Writing/TCC_Paulo/template.*
+!Writing/TCC_Paulo/*.tex
+!Writing/TCC_Paulo/*.pdf
