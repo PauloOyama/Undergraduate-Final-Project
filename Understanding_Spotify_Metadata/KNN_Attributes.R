@@ -25,12 +25,12 @@ remove_row2 <- c(7,10,13)
 filt_metadata <- filt_metadata[,-remove_row2]
 
 #Trying to understanding using graphs
-
-#plot(valence ~ danceability, data=filt_metadata,col = c(1:10)[key])
-#plot(acousticness ~ loudness, data=filt_metadata, col = c(1:10)[key])
+cor(filt_metadata)
+plot(valence ~ danceability, data=filt_metadata,col='deeppink3')
+plot(acousticness ~ loudness, data=filt_metadata,col='darkseagreen3')
 #
 #
-#plot(energy ~ loudness, data=filt_metadata)
+plot(energy ~ loudness, data=filt_metadata, col='gold3')
 #
 #
 #plot(energy ~ loudness, data=filt_metadata, col = c(1:5)[time_signature])
