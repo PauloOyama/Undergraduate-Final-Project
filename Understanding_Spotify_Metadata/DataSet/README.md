@@ -16,11 +16,11 @@ But for now, let's talk about it's columns.
 | Nome            | Tipo        | Descrição                    |
 |-----------------|-------------|------------------------------|
 | Name            | chr         | string                       |
-| TrackId         | chr         | string                       |
+| Track Id         | chr         | string                       |
 | URI             | chr         | string                       |
 | Mode            | int         | range[0,1]                   |
 | Key             | int         | range[-1,...,11]             |
-| Timesignature   | int         | range[3,...,7]               |
+| Time signature   | int         | range[3,...,7]               |
 | Popularity      | int         | range[0...100]               |
 | Acousticness    | float       | range[0, ... ,1.0]           |
 | Danceability    | float       | range[0...1.0]               |
@@ -30,7 +30,7 @@ But for now, let's talk about it's columns.
 | Liveness        | float       | range[0...1.0]               |
 | Speechiness     | float       | range[0...1.0]               |
 | Valence         | float       | range[0...1.0]               |
-| Durationms      | float       | range[0...Infinity]          |
+| Duration(ms)      | float       | range[0...Infinity]          |
 | Tempo           | float       | range[0...Infinity]          |
 | Created at       | datetime    | %YY-%MM-%DDhh:mm:ss          |
 
