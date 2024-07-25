@@ -33,3 +33,9 @@ But for now, let's talk about it's columns.
 | Durationms      | float       | range[0...Infinity]          |
 | Tempo           | float       | range[0...Infinity]          |
 | Created at       | datetime    | %YY-%MM-%DDhh:mm:ss          |
+
+The file *DataSet_With_Genre.csv* contains also the genres from the musics;
+The file *metadata_woth_tracks.csv* contains the popularity and the metadata of the music;
+The files *metadados_dataset.csv* and *filtered_metadados_dataset.csv* contains almost the same columns.;
+The file *my_account.csv* contains just 20 musics that are the tracks most listen by me, 
+i used this file as input to the machine learning model.
