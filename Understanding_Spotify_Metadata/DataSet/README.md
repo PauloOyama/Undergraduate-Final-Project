@@ -9,7 +9,7 @@ This datasets come from de Spotify's API so for more information, click in the l
 ## About
 
 The DataSets were constructed with scrapping in the APIs using Python and later analysed with R,
-they consist in a few .csv files each one has its purpose.
+they consist in a few .csv files.
 
 But for now, let's talk about it's columns.
 
@@ -35,7 +35,10 @@ But for now, let's talk about it's columns.
 | Created at       | datetime    | %YY-%MM-%DDhh:mm:ss          |
 
 The file *DataSet_With_Genre.csv* contains also the genres from the musics;
+
 The file *metadata_woth_tracks.csv* contains the popularity and the metadata of the music;
+
 The files *metadados_dataset.csv* and *filtered_metadados_dataset.csv* contains almost the same columns.;
+
 The file *my_account.csv* contains just 20 musics that are the tracks most listen by me, 
 i used this file as input to the machine learning model.
