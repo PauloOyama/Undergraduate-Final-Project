@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Recommendation App</title>
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Recommendation App">
+        <meta name="description" content="Veja quais artistas, músicas e gêneros você mais tem escutado durante a pandemia!">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Recommendation App">
+        <meta property="og:description" content="Veja quais artistas, músicas e gêneros você mais tem escutado durante a pandemia!">
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:description" content="Veja quais artistas, músicas e gêneros você mais tem escutado durante a pandemia!">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="stylesheets/normalize.css"
+            media="screen"
+        >
+        <link rel="icon" href="imgs/favicon.ico">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="stylesheets/stylesheet.css"
+            media="screen"
+        >
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="stylesheets/github-light.css"
+            media="screen"
+        >
+    </head>
+    <body>
+        <section class="page-header" style="margin-top: 3%;">
+            <div>
+                <h1 class="project-name" style="position: relative; margin: auto;left: 40%;">Recommendation App</h1>
+            </div>
+        </section>
+        <section class="main-content" style="margin: 3%;">
+            <div>
+                <h3 style="position: relative; margin: auto;left: 37%;">
+                    Bem-vindo(a) ao Recommendation App
+                </h3>
+            </div>
+            <div style="margin: 5%;">
+                <p style="text-align: center;">
+                    Recommendation App é uma aplicação que usa informações do Spotify para criar um playlist em sua conta por meio de um algoritmo construído por mim como trabalho de conclusão de curso na Universidade Federal de Uberlândia (UFU) usando a API do plataforma.
+                    <br>
+                    <br>
+                    Para começar, clique no botão abaixo para autorizar a aplicação a usar os dados do seu perfil e depois clique em criar playlist.
+                </p>
+            </div>
+        </section>
+        <div style="display: flex;justify-content: space-evenly; margin: 3%;">
+            <a style="width: 250px;height: 40px;position: relative; border-radius: 15px;background-color: blue;
+            box-shadow: 2px 2px 2px black;" href="https://accounts.spotify.com/authorize?response_type=token&client_id=f4447108f97e40aa8969801ba2b6d108&scope=user-top-read%20playlist-modify-private%20user-library-read&state=y9logr&redirect_uri=https%3A%2F%2Fpaulooyama.github.io%2F" class="btn">
+                <strong style="margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                width: 200px;">AUTORIZE APPLICATION</strong>
+            </a>
+            <a
+                href="./index.htm"
+                id="btn-1"
+                class="btn"
+                style="width: 250px;height: 40px;position: relative;border-radius: 15px;background-color: blue;
+            color: white;
+                box-shadow: 2px 2px 2px black;"
+            >
+                <strong style="margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 148px;">CREATE PLAYLIST</strong>
+            </a>
+        </div>
+        <script>
+
+            const apiUrl = 'http://localhost:8000/items/5?q=';
+            const currentUrl = window.location.href; 
+            var arr = []
+            for (var i = 0; i < currentUrl.length;i++){
+                if(currentUrl[i] == '='){
+                    arr.push(i+1);
+                    break;
+                }
+            }
+
+            for (var i = 0; i < currentUrl.length;i++){
+                if(currentUrl[i] == '&'){
+                    arr.push(i);
+                    break;
+                }
+            }
+            
+            token = currentUrl.slice(arr[0],arr[1])
+            console.log(token)
+
+            fetch(apiUrl + token)
+                .then(response => {
+                  if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                  }
+                  return response.json();
+                })
+                .then(data => {
+                  console.log(data);
+                })
+                .catch(error => {
+                  console.error('Error:', error);
+                });
+
+            const button = document.getElementById('btn-1');
+
+            button.addEventListener('click', function () {
+                fetch('http://localhost:8000/playlist/1?q='+token)
+
+                    .then(function (result) {
+                        console.log(result);
+                    })
+                    .catch(function (err) {
+                        console.error(err);
+                    });
+            });
+        </script>
+    </body>
+</html>
