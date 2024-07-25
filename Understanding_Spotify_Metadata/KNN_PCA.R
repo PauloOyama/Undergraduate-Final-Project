@@ -120,4 +120,4 @@ for(i in 1:nrow(d$nn.idx)){
 b <- meta_t[rec_musics,c(1,2,4)]
 
 
-write.csv(b, "A:/Universidade/TCC_Front/rec.csv", row.names=TRUE)
+write.csv(b, "../Front/rec.csv", row.names=TRUE)

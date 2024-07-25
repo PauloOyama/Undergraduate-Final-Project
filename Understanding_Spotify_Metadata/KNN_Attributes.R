@@ -10,7 +10,6 @@ set.seed(10002)
 
 setwd("A:/Universidade/TCC/Implementação/Understanding_Spotify_Metadata/")
 
-#metadata2 <- read.csv('./filtered_metadados_dataset.csv',header=TRUE)
 meta_t <- read.csv('./metadata_woth_tracks.csv')
 
 colnames(meta_t)
@@ -25,30 +24,15 @@ remove_row2 <- c(7,10,13)
 filt_metadata <- filt_metadata[,-remove_row2]
 
 #Trying to understanding using graphs
-cor(filt_metadata)
-plot(valence ~ danceability, data=filt_metadata,col='deeppink3')
-plot(acousticness ~ loudness, data=filt_metadata,col='darkseagreen3')
-#
-#
-plot(energy ~ loudness, data=filt_metadata, col='gold3')
-#
-#
-#plot(energy ~ loudness, data=filt_metadata, col = c(1:5)[time_signature])
-#plot(energy ~ loudness, data=filt_metadata, col = c(1:10)[key])
-#
-#plot(energy ~ instrumentalness, data=filt_metadata, col = c(1:10)[key])
-#plot(energy ~ acousticness, data=filt_metadata, col = c(1:10)[key])
-#
+#cor(filt_metadata)
+#plot(valence ~ danceability, data=filt_metadata,col='deeppink3')
+#plot(acousticness ~ loudness, data=filt_metadata,col='darkseagreen3')
 
-## Implementing TSNE
 
-# Install all the required packages
-#install.packages("Rtsne")
-#install.packages("ggplot2")#
+#plot(energy ~ loudness, data=filt_metadata, col='gold3')
 
-# Load the required packages
-
-tsne_out <- Rtsne(filt_metadata,check_duplicates = FALSE)
+## Implementing t-SNE
+tsne_out <- Rtsne(filt_metadata[,c(1,7,5,2,6)],check_duplicates = FALSE)
 
 # Conversion of matrix to dataframe
 tsne_plot <- data.frame(x = tsne_out$Y[,1], 
@@ -58,18 +42,16 @@ tsne_plot <- data.frame(x = tsne_out$Y[,1],
 # Plotting the plot using ggplot() function
 ggplot2::ggplot(tsne_plot,label=Species) + geom_point(aes(x=x,y=y, color=filt_metadata$danceability))
 
-#ggplot2::ggplot(tsne_plot2,label=Species) + geom_point(aes(x=x,y=y,color=filt_metadata$energy))
-#ggplot2::ggplot(tsne_plot2,label=Species) + geom_point(aes(x=x,y=y,color=filt_metadata$loudness))
-#ggplot2::ggplot(tsne_plot2,label=Species) + geom_point(aes(x=x,y=y,color=filt_metadata$acousticness))
-#ggplot2::ggplot(tsne_plot2,label=Species) + geom_point(aes(x=x,y=y,color=filt_metadata$instrumentalness))
-#ggplot2::ggplot(tsne_plot2,label=Species) + geom_point(aes(x=x,y=y, color = filt_metadata$loudness))
-#
 
+colnames(filt_metadata)
+column_used <- c(1,7,2,6,5)
+scaled_data <- scale(filt_metadata)
+scaled_data <- scaled_data[,column_used]
 ## Implementing KD Tree
 musics <- c(52,53,102,164,178,202,213,269)
 
-tree_t <- filt_metadata[-musics,]
-test_t <- filt_metadata[musics,]
+tree_t <- scaled_data[-musics,]
+test_t <- scaled_data[musics,]
 kdt <- KDTree$new(tree_t)
 
 d <- kdt$query(query_X = test_t, k = 2)
@@ -97,17 +79,3 @@ for(i in 1:nrow(d$nn.idx)){
 }
 
 meta_t[rec_musics,c(1,2,4)]
-
-#f_tree_t <- a
-#b <- scale(my_acc[values])
-#f_test_t <- b
-#kdt <- KDTree$new(f_tree_t)
-
-#metadata2 <- metadata2[,-c(1:2)]
-#metadata2[t$nn.idx[1,],values]
-
-f_tree_t <- a[-c(1:10),]
-f_test_t <- a[c(1:10),]
-kdt <- KDTree$new(f_tree_t)
-
-t <- kdt$query(query_X = f_test_t, k = 3)
