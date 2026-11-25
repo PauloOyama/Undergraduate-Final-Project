@@ -12,6 +12,18 @@
     "markUrl": "https://fastapi.tiangolo.com/"
   },
   {
+    "file": "lastfm.svg",
+    "icon": "logos:lastfm",
+    "name": "Lastfm",
+    "kind": "colour",
+    "source": "gilbarbara/logos@d6960edc1b7309d392c76e40d3a320df7f9ff85c",
+    "author": "Gil Barbara",
+    "licence": "CC0-1.0",
+    "url": "https://github.com/gilbarbara/logos",
+    "trademark": true,
+    "markUrl": "https://www.last.fm/"
+  },
+  {
     "file": "python.svg",
     "icon": "logos:python",
     "name": "Python",
@@ -46,5 +58,27 @@
     "url": "https://github.com/gilbarbara/logos",
     "trademark": true,
     "markUrl": "https://www.spotify.com/"
+  },
+  {
+    "file": "ui-audio-waveform.svg",
+    "icon": "ui:audio-waveform",
+    "name": "Audio Waveform",
+    "kind": "line",
+    "source": "@iconify-json/lucide@1.2.100",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide",
+    "trademark": false
+  },
+  {
+    "file": "ui-table.svg",
+    "icon": "ui:table",
+    "name": "Table",
+    "kind": "line",
+    "source": "@iconify-json/lucide@1.2.100",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide",
+    "trademark": false
   }
 ]
