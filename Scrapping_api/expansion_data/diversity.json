@@ -1,0 +1,269 @@
+{
+  "before": {
+    "tracks": 36036,
+    "artists": 4176,
+    "genres": 710,
+    "top_genres": [
+      [
+        "k-pop",
+        902
+      ],
+      [
+        "bossa nova",
+        678
+      ],
+      [
+        "classical",
+        595
+      ],
+      [
+        "album rock",
+        504
+      ],
+      [
+        "alternative metal",
+        501
+      ],
+      [
+        "brazilian hip hop",
+        414
+      ],
+      [
+        "alternative rock",
+        356
+      ],
+      [
+        "dance pop",
+        356
+      ],
+      [
+        "brazilian gospel",
+        348
+      ],
+      [
+        "modern alternative rock",
+        347
+      ],
+      [
+        "brega",
+        310
+      ],
+      [
+        "sertanejo",
+        302
+      ]
+    ],
+    "top5_share": 0.106,
+    "genre_hhi": 0.0059,
+    "gini_tracks_per_artist": 0.179,
+    "decades": [],
+    "markets": [],
+    "long_tail_share": 0.361
+  },
+  "added": {
+    "tracks": 757,
+    "artists": 380,
+    "genres": 104,
+    "top_genres": [
+      [
+        "samba",
+        40
+      ],
+      [
+        "bossa nova",
+        37
+      ],
+      [
+        "brazilian jazz",
+        33
+      ],
+      [
+        "sertanejo tradicional",
+        31
+      ],
+      [
+        "rap",
+        29
+      ],
+      [
+        "mpb",
+        29
+      ],
+      [
+        "rock",
+        13
+      ],
+      [
+        "brega",
+        12
+      ],
+      [
+        "southern hip hop",
+        11
+      ],
+      [
+        "new mpb",
+        11
+      ],
+      [
+        "metal",
+        9
+      ],
+      [
+        "hard rock",
+        9
+      ]
+    ],
+    "top5_share": 0.332,
+    "genre_hhi": 0.0328,
+    "gini_tracks_per_artist": 0.392,
+    "decades": [
+      [
+        "1900s",
+        1
+      ],
+      [
+        "1950s",
+        1
+      ],
+      [
+        "1960s",
+        11
+      ],
+      [
+        "1970s",
+        33
+      ],
+      [
+        "1980s",
+        32
+      ],
+      [
+        "1990s",
+        46
+      ],
+      [
+        "2000s",
+        107
+      ],
+      [
+        "2010s",
+        309
+      ],
+      [
+        "2020s",
+        217
+      ]
+    ],
+    "markets": [
+      [
+        "BR",
+        757
+      ]
+    ],
+    "long_tail_share": 0.715
+  },
+  "after": {
+    "tracks": 36793,
+    "artists": 4483,
+    "genres": 769,
+    "top_genres": [
+      [
+        "k-pop",
+        903
+      ],
+      [
+        "bossa nova",
+        715
+      ],
+      [
+        "classical",
+        595
+      ],
+      [
+        "album rock",
+        504
+      ],
+      [
+        "alternative metal",
+        501
+      ],
+      [
+        "brazilian hip hop",
+        415
+      ],
+      [
+        "alternative rock",
+        356
+      ],
+      [
+        "dance pop",
+        356
+      ],
+      [
+        "brazilian gospel",
+        348
+      ],
+      [
+        "modern alternative rock",
+        347
+      ],
+      [
+        "brega",
+        322
+      ],
+      [
+        "sertanejo",
+        303
+      ]
+    ],
+    "top5_share": 0.106,
+    "genre_hhi": 0.0059,
+    "gini_tracks_per_artist": 0.22,
+    "decades": [
+      [
+        "1900s",
+        1
+      ],
+      [
+        "1950s",
+        1
+      ],
+      [
+        "1960s",
+        11
+      ],
+      [
+        "1970s",
+        33
+      ],
+      [
+        "1980s",
+        32
+      ],
+      [
+        "1990s",
+        46
+      ],
+      [
+        "2000s",
+        107
+      ],
+      [
+        "2010s",
+        309
+      ],
+      [
+        "2020s",
+        217
+      ]
+    ],
+    "markets": [
+      [
+        "BR",
+        757
+      ]
+    ],
+    "long_tail_share": 0.368
+  }
+}

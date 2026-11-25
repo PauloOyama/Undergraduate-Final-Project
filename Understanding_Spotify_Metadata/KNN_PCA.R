@@ -8,9 +8,19 @@ library("factoextra")
 
 set.seed(10002)
 
-setwd("A:/Universidade/TCC/Implementação/Understanding_Spotify_Metadata/")
+# Rode a partir da pasta Understanding_Spotify_Metadata (ex.: Rscript KNN_PCA.R).
+# setwd("A:/Universidade/TCC/Implementação/Understanding_Spotify_Metadata/")
 
-meta_t <- read.csv('./metadata_woth_tracks.csv')
+meta_t <- read.csv('./DataSet/metadata_worth_tracks.csv')
+
+# Faixas da expansão (Scrapping_api/discover.py): as 18 primeiras colunas têm a mesma ordem da
+# base antiga. time_signature vem vazio (o ReccoBeats não o devolve) e é removido mais abaixo.
+if (file.exists('./DataSet/expansion_tracks.csv')) {
+  expansion <- read.csv('./DataSet/expansion_tracks.csv')[, colnames(meta_t)]
+  expansion$time_signature <- 4
+  expansion$popularity[is.na(expansion$popularity)] <- 0
+  meta_t <- rbind(meta_t, expansion)
+}
 
 
 colnames(meta_t)
