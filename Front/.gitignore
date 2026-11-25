@@ -1,0 +1,9 @@
+# relatórios e capturas do kit de design
+.taste-skill/
+# arquivos de demonstração e ferramentas do kit que a página não carrega
+assets/**/*.jpg
+assets/**/*.png
+assets/**/*.webp
+assets/**/*.html
+assets/**/*.mjs
+assets/**/*.md

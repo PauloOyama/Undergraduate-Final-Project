@@ -5,3 +5,6 @@ Testing/Scrapping_api/__pycache__/
 Writing/TCC_Paulo/template.*
 !Writing/TCC_Paulo/*.tex
 !Writing/TCC_Paulo/*.pdf
+.env
+__pycache__/
+.venv/
